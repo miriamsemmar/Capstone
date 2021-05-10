@@ -1,0 +1,2 @@
+start,end,duration,round_epochs,loss,accuracy,val_loss,val_accuracy,activation1,activation2,dropout,nodes1,optimizer
+04/26/21-121803,04/26/21-130250,2687.3664910793304,27,2.959076166152954,0.22062717378139496,3.305640935897827,0.16066665947437286,tanh,tanh,0.3,128,sgd
