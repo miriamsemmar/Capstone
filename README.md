@@ -83,7 +83,7 @@ We began our modelling process using a densely connected network as our baseline
 
 ### CNN Modelling & Transfer Learning
 
-Following poor performance from a densely connected network, we moved on to CNN networks. We didn't see much improvement in these models until trying a gridsearch. The gridsearch model resulted in a ~29% accuracy on train data and a~19% accuracy on test data. However, overfitting still remained a problem. 
+Following poor performance from a densely connected network, we moved on to CNN networks. We didn't see much improvement in these models until trying a gridsearch. The gridsearch model resulted in a roughly 29% accuracy on train data and a roughly 19% accuracy on test data. However, overfitting still remained a problem. 
 
 Transfer learning via VGG19 and Inceptionv3 also did not yield much improvemnt.
 
@@ -97,7 +97,7 @@ Following out lack of success with our existing dataset, we combined our dataset
 
 The best model generated is Model 4 from our last notebook - the original dropout regularization model. The accuracy of this model was 55% for our training data and 53% for our test data. Loss was roughly 1.8 for both groups. 
 
-While some of our other models demonstrated greater accuracy, like Model 5 which had an ~86% accuracy, all of our models demonstrated more overfitting.
+While some of our other models demonstrated greater accuracy, like Model 5 which had an 86% accuracy, all of our models demonstrated more overfitting.
 
 * Increase the size of our dataset. We saw strong improvements after combining our data with the Stanford Dog dataset.
 * Test leveraging K-fold cross validation to improve our model. This may help prevent some of the overfitting we're seeing.
