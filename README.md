@@ -77,11 +77,21 @@ In later notebooks, we combine our original dataset with the Stanford Dog datase
 
 ### Baseline Model
 
+<img align="center" src="Results-Images/Baseline Model.png" width="400" height="600">
+
 We began our modelling process using a densely connected network as our baseline model. This model performed poorly, with an accuracy around 3% across both the testing and training sets as well as demonstrating significant overfitting. 
 
+### CNN Modelling & Transfer Learning
 
+Following poor performance from a densely connected network, we moved on to CNN networks. We didn't see much improvement in these models until trying a gridsearch. The gridsearch model resulted in a ~29% accuracy on train data and a~19% accuracy on test data. However, overfitting still remained a problem. 
 
+Transfer learning via VGG19 and Inceptionv3 also did not yield much improvemnt.
 
+### Step by Step CNN Following Dataset Combination
+
+<img align="center" src="Results-Images/Dropout.png" width="400" height="600">
+
+Following out lack of success with our existing dataset, we combined our dataset with the Stanford dog dataset to increase our sample size. From here, we built a CNN model using a step-by-step process. We specifically tried to address overfitting via dropout regularization and weight decay. While our weight decay model yielded the highest accuracy (86%), overfitting only improved slightly. Our dropout regularization model is our final model, with an accuracy of 55% for our training data and 53% for our test data. Loss was roughly 1.8 for both groups.   
 
 ## Conclusions & Next Steps
 
