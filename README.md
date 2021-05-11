@@ -6,7 +6,7 @@
 
 Additionally, a dog image classification model could be a tool to help identify lost dogs and help reunite them with their owners through facial recognition.
 
-Barking Data Inc. would like to develop this model in order to sell the various applications that will come out of it to pet product companies, veterinary offices, animal rescues and other companies who may benefits from these tools.
+Barking Data Inc. would like to develop this model in order to sell the various applications that will come out of it to pet product companies, veterinary offices, animal rescues and other companies who may benefit from these tools.
 
 To begin the development of the model we will eventually sell, we will start by building a model using the 50 most popular dog breeds. Additionally, we will generate our own dataset using Selenium to scrape Google Images.
 
