@@ -75,6 +75,14 @@ In later notebooks, we combine our original dataset with the Stanford Dog datase
 
 ## Results
 
+### Baseline Model
+
+We began our modelling process using a densely connected network as our baseline model. This model performed poorly, with an accuracy around 3% across both the testing and training sets as well as demonstrating significant overfitting. 
+
+
+
+
+
 ## Conclusions & Next Steps
 
 The best model generated is Model 4 from our last notebook - the original dropout regularization model. The accuracy of this model was 55% for our training data and 53% for our test data. Loss was roughly 1.8 for both groups. 
